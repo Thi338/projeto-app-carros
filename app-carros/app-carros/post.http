@@ -1,0 +1,11 @@
+POST http://localhost:8080/car
+content-type: application/json
+
+{
+    "model": "Fiat Uno",
+    "price": 22.000,
+    "image": "https://http2.mlstatic.com/D_NQ_NP_670846-MLB69056245180_042023-UC.webp",
+    "year": 2018,
+    "color": "preta",
+    "numberOfPorts": 4
+}
