@@ -1,4 +1,4 @@
-package com.example.appcarros.dto;
+package com.example.appcarros.dto.Car;
 
 import com.example.appcarros.entity.Car;
 

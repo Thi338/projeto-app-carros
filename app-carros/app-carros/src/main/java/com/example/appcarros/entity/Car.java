@@ -1,6 +1,6 @@
 package com.example.appcarros.entity;
 
-import com.example.appcarros.dto.CarRequestDTO;
+import com.example.appcarros.dto.Car.CarRequestDTO;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

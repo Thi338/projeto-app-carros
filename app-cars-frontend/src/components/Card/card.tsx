@@ -1,6 +1,8 @@
-import "./card.css";
+
+import './card.css'
 
 interface CardProps {
+    
     price: number,
     model: string, 
     image: string,
@@ -9,7 +11,11 @@ interface CardProps {
     numberOfPorts: number
 }
 
+ 
 export function Card({ price, model, image, year, color, numberOfPorts} : CardProps) {
+
+    
+    
     return (
         <div className="card">
             <img src={image}/>
@@ -18,6 +24,8 @@ export function Card({ price, model, image, year, color, numberOfPorts} : CardPr
             <p><b>Ano: </b>{year}</p>
             <p><b>Cor: </b>{color}</p>
             <p><b>Portas: </b>{numberOfPorts}</p>
+            <p><a href="">Deletar</a></p>
         </div>
     )
+    
 }
