@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
-import { useCustomerDataMutate } from "../../hooks/useCustomerDataMutate";
-import { CustomerData } from "../../interface/CustomerData";
+import { useCustomerDataMutate } from "../../../hooks/useCustomerDataMutate";
+import { CustomerData } from "../../../interface/CustomerData";
 import './customer-modal.css';
 
 interface InputProps {

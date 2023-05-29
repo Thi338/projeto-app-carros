@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 import { useCarData } from '../../hooks/useCarData';
 import { Card } from '../Card/card';
-import { CreateModal } from '../create-modal/create-modal';
+import { CreateModal } from '../Card/create-modal/create-modal';
 
 function CadastroCarros() {
   const { data } = useCarData();

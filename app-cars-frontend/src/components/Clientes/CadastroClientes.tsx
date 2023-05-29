@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useCustomerData } from "../../hooks/useCustomerData";
 import { CardCliente } from "./cardCliente"
-import { CreateCustomerModal } from "../create-customer-modal/create-customer-modal";
+import { CreateCustomerModal } from "./create-customer-modal/create-customer-modal";
 
 import "./cadastroClientes.css";
 import { Link } from "react-router-dom";

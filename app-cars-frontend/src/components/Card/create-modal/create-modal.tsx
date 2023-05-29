@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { useCarDataMutate } from "../../hooks/useCarDataMutate";
-import { CarData } from "../../interface/CarData";
+import { useCarDataMutate } from "../../../hooks/useCarDataMutate";
+import { CarData } from "../../../interface/CarData";
 
 import "./modal.css"
 

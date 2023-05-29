@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
-import { useSurveyDataMutate } from "../../hooks/useSurveyDataMutate"
-import { SurveyData } from "../../interface/SurveyData"
+import { useSurveyDataMutate } from "../../../hooks/useSurveyDataMutate"
+import { SurveyData } from "../../../interface/SurveyData"
 import Select from "react-select";
 import './create-vistoria-modal.css';
 
